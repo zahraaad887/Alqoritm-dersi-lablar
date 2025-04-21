@@ -1,8 +1,20 @@
-import math as mt
-m=(mt.pow(123,4*123,4*mt.log(2)))/1,124*mt.pow(0.024,1/5)*mt.cos(1)
+import math
 
-if k>(-2)*m:
-    netice=(7*k-5*p)/(2*k**2+3*p**2)
+m-nin hesablanması
+numerator = (1234*2)*(1/3) * math.log(2)
+denominator = 1.124 * math.sqrt(0.024) * math.cos(1)
+m = numerator / denominator
+
+r-nin hesablanması
+r = math.sin(-0.25 * (math.atan(2) + math.atan(3)))
+
+s-nin hesablanması
+if r > -2 * m:
+    s = math.exp(-abs(m / r))
 else:
-    netice=abs(k-p)
-print(netice)
+    s = m * r
+
+Nəticələri çap edək
+print(f"m = {m}")
+print(f"r = {r}")
+print(f"s = {s}")
